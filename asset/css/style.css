@@ -1,0 +1,569 @@
+/*h1{
+	color:red;
+	
+}
+p{
+	background-color:yellow;
+	color:green;
+}*/
+
+/*h1{
+	color:red;
+}
+p{
+	color:pink;
+}*/
+
+/*#one{
+	color:yellow;
+}
+#two{
+	background:green;
+}*/
+
+/*.one{
+color:yellow;
+}
+.two{
+	color:green;
+}*/
+
+/*h1,p,b{
+	color:red;
+}
+*/
+
+/* Combinator starts */
+/* descendent selector */
+/* div p{ */
+	/* color:green; /*it will apply property to child and grandchild */ 
+/* } */
+
+/* div + p { */
+	/* color:green; */
+/* } */
+
+/* div{ */
+	/* background-color:black; */
+/* } */
+/* a:hover{ */
+	/* color:red; */
+/* } */
+/* a:link{ */
+	/* color:white; */
+/* } */
+/* #one{ */
+	/* background-color:red; */
+	/* color:white; */
+	/* border:0; */
+/* } */
+/* #one:hover{ */
+	/* background-color:green; */
+/* } */
+
+
+/* [type]{ */
+	/* background-color:yellow; */
+	/* color:red; */
+/* } */
+
+/* [type="text"]{ */
+	/* background-color:yellow; */
+/* } */
+/* [type="submit"]{ */
+	/* background-color:Green; */
+/* } */
+/* #one:hover{ */
+/* background-color:pink; */
+/* } */
+
+/* [class*="tested"]{ */
+	/* color:red; */
+/* } */
+
+/* [class*="ing"]{ */
+	/* color:red; */
+/* } */
+
+/* *{ */
+	/* background-color:red; */
+	/* font-style:italic; */
+/* } */
+/* h1{ */
+	/* color:red; */
+/* } */
+/* p{ */
+	/* color: green; */
+/* } */
+
+/* h1{ */
+	/* color:#C4AB7B; */
+/* } */
+/* p{ */
+	/* color:#C43F6D; */
+/* } */
+
+/* h1{ */
+	/* color:rgb(67, 180, 53); */
+/* } */
+/* p{ */
+	/* color:hsl(2, 74%, 60%); */
+/* } */
+
+/* p{ */
+	/* /* text-align:center; /*left - by default / right/center/justify */ 
+	/* text-transform:capitalize; */
+	/* text-indent:100px; */
+	/* line-height:30px; */
+	/* word-spacing:8px; */
+	/* letter-spacing:5px; */
+	/* color:red; */
+	/* font-size:20px; */
+	/* font-weight:bold; */
+	/* font-style:italic; */
+	/* font-family: 'Comforter Brush', cursive; */
+	
+/* } */
+/* a{ */
+	/* text-decoration:none; */
+/* } */
+/* h1{ */
+	/* font-weight:normal; */
+/* } */
+/* i{ */
+	/* font-style:normal; */
+/* } */
+
+/* p{ */
+	/* width:500px; */
+	/* height:500px; */
+	/* border-style:ridge; */
+	/* border-color:red; */
+	/* border-width:4px; */
+	/* border-radius:10px; */
+	/* border-bottom-style:solid; */
+	/* border-bottom-color:red; */
+	/* border-left-style:dotted; */
+	/* border-left-color:blue; */
+	/* border-right-style:dashed; */
+	/* border-right-color:purple; */
+	/* border-bottom-left-radius:20px; */
+	/* border-top-style:dashed; */
+	/* border-top-color:green; */
+/* } */
+/* the layout in which elements width and height are mentioned in 
+ pixcels is calld as static layout. 
+ 
+ if width is given in pixcels, then if we reduced the screen size, then
+ horizontal scrollbar appears, for user horizontal scrolling is tedious,
+ its a bad user experience.
+ 
+ the layout in which elements width and height are mentioned in 
+ percentage is calld as fluid layout.
+ 
+ disadvantage of fluid layout
+ if width is given with small percentage, while decreasing the sreen size, the
+ content become so narrow, that is difficult for the user to rea the content. */
+ /* p{ */
+	/* width:500px; */
+	/* height:500px; */
+	/* border-style:solid; */
+	/* padding:10px; /*padding->left,right,bottom,top */ 
+	
+ /* } */
+ /* short hand proerty for padding */
+ /* h1{ */
+	 /* color:#24399A ; */
+	 
+ /* } */
+ /* p{ */
+	/* width:300px; */
+	/* height:300px; */
+	/* border-style:solid; */
+	/* border-width:4px; */
+	/* padding:10px 15px 20px; */
+	/* margin:10px 20px; */
+	/* border-radius:10px; */
+	/* border-color:#A5221D ; */
+	/* line-height:30px; */
+	/* word-spacing:8px; */
+	/* letter-spacing:5px; */
+	/* color:#C64383 ; */
+	/* font-size:20px; */
+	/* margin: 100px auto; */
+	/* box-sizing:border-box; */
+ /* } */
+ /* *{  */
+	/* background-color:yellow; */
+	
+ /* } */
+ /* #one:hover{ */
+	/* background-color:green; */
+/* } */
+/* h1{ */
+	/* display:inline; */
+	/* display:inline-block; */
+	/* border-style:solid; */
+	/* width:500px; */
+/* } */
+/* p{ */
+	/* display:inline; */
+/* } */
+/* b{ */
+	/* display:block; */
+/* } */
+/* i{ */
+	/* display:block; */
+/* } */
+
+/* a{ */
+	/* text-decoration:none; */
+/* } */
+/* li{ */
+	/* display:inline-block; */
+	/* border-style:solid; */
+	/* width:100; */
+	/* height:40; */
+	/* border-radius:10; */
+	/* text-align:center; */
+	/* box-sizing:border-box; */
+	/* margin-right:5px; */
+	/* background-color:#E1A64A ; */
+	/* border-radius:5px; */
+	/* padding:5px; */
+	/* box-shadow:10px 10px 10px 10px #A0B840 ; */
+	
+/* } */
+/* li a{ */
+	/* color:white; */
+	/* font-weight:bold; */
+/* } */
+
+/* li:hover{ */
+	/* background-color:#E4F4A1 ; */
+/* } */
+/* li a:hover{ */
+	/* color:#68512D ; */
+/* } */
+
+/* .box_shadow{ */
+	/* width:200px; */
+	/* height:200px; */
+	/* border-style:solid; */
+	/* margin:200px; */
+	/* text-align:center; */
+	/* padding-top:70px; */
+	/* box-sizing:border-box; */
+	/* background-color:black; */
+	/* color:white; */
+	/* box-shadow:10px 10px 10px 10px #A0B840 ; */
+	
+/* } */
+/* #search{ */
+	/* width:700px; */
+	/* border-style:solid; */
+	/* border-radius:10px; */
+	/* box-shadow:1px 0px 5px 2px #9C9C98; */
+	
+/* } */
+
+/* ::placeholder{ */
+	/* color:red; */
+/* } */
+/* .text_shadow{ */
+	/* text-align:center; */
+	/* padding-top:200px; */
+	/* font-size:100px; */
+	/* text-shadow:1px 3px 0px #CBE583 ; */
+	/* background-color:#454640; */
+/* } */
+/* *{ */
+	/* background-color:#CAE755; */
+/* } */
+
+/* .bg1{ */
+	/* border-style:solid; */
+	/* height:350; */
+	/* text-align:center; */
+	/* padding-top:100px; */
+	/* box-sizing:border-box; */
+	/* background-color:#B4CB55 ; */
+	/* font-size:100px; */
+	
+/* } */
+/* .bg1{ */
+	/* border-style:solid; */
+	/* width:1000; */
+	/* height:1050; */
+	/* background-image:url('king.jpg'),url('king2.jpg'),url('king3.jpg'); */
+	/* background-position: left bottom,left top,center left; */
+	/* background-repeat: no-repeat, no-repeat,no-repeat; */
+/* } */
+/* div{ */
+	/* border-style:solid; */
+	/* margin:10px; */
+	
+/* } */
+
+/* #one{ */
+	/* border-style:solid; */
+	/* width:800; */
+	/* height:450; */
+	/* background-image:url('king2.jpg'); */
+/* } */
+/* p{ */
+	/* border-style:solid; */
+	/* background-color:yellow; */
+	/* padding:50px; */
+	/* border */
+/* } */
+
+/* .row1{ */
+	/* border-style:solid; */
+	/* width:900; */
+	/* height:700; */
+	/* background-image:url('king.jpg'); */
+	/* background-repeat: no-repeat; */
+/* } */
+/* .row2{ */
+	/* border-style:solid; */
+	/* width:300; */
+	/* height:300; */
+	/* background-image:url('king2.jpg'); */
+	/* background-repeat: no-repeat; */
+/* } */
+/* .row3{ */
+	/* border-style:solid; */
+	/* width:300; */
+	/* height:300; */
+	/* background-image:url('king3.jpg'); */
+	/* background-repeat: no-repeat; */
+/* } */
+/* div{ */
+	/* border-style:solid; */
+	/* margin:20px; */
+	/* padding:5px; */
+	/* background-color:pink; */
+	
+/* } */
+
+/* p{ */
+	/* color:red; */
+/* text-align:bottom; */
+
+/* } */
+
+
+/* .bg1{ */
+	/* border-style:solid; */
+	/* width:2000; */
+	/* height:1550; */
+	/* background-image:url('../photos/king.jpg'); */
+	/* background-repeat : no-repeat; */
+	/* background-size:100%; */
+	/* background-attachment:fixed; */
+/* } */
+
+/* posotion property */
+
+/* #fourth{ */
+	/* position:fixed; */
+	/* right:20px; */
+	/* color:red; */
+/* } */
+
+/* #fourth{ */
+	/* position:relative; */
+	/* left:20px; */
+	/* top:20px; */
+	/* color:red; */
+/* } */
+
+/* #fourth{ */
+	/* position:absolute; */
+	/* left:20px; */
+	/* top:20px; */
+	/* color:red; */
+/* } */
+
+/* #whatsapp{ */
+	/* position:fixed; */
+	/* bottom:10px; */
+	/* right:10px; */
+/* } */
+
+/* #tel{ */
+	/* position:fixed; */
+	/* bottom:100px; */
+	/* right:10px; */
+/* } */
+
+/* #whatsapp{ */
+	/* float:right; */
+/* } */
+
+
+/* clear property--- to clear the floating effect on non-floating element*/
+
+
+/* .box1{ */
+	/* border-style:solid; */
+	/* width:60%; */
+	/* float:left; */
+	
+/* } */
+
+/* .box2{ */
+	/* border-style:solid; */
+	/* width:30%; */
+	/* float:right; */
+	
+	
+/* } */
+
+/* .box3{ */
+	/* border-style:solid; */
+	/* clear:both; */
+	
+/* } */
+
+/* .card{ */
+	/* width:24%; */
+	/* height:300px; */
+	/* border-style:solid; */
+	/* box-sizing:border-box; */
+	/* float:left; */
+	/* box-shadow:0px 0px 5px #D66C2B ;  */
+	/* margin-right:10px; */
+/* } */
+/* .card p{ */
+	/* text-align:center; */
+	/* padding-top:110px; */
+/* } */
+
+/* .linear_gradient{ */
+	/* background-image:linear-gradient(to top right,red,yellow,green,pink,purple); */
+	
+	/* height:300px; */
+/* } */
+
+/* .trans{ */
+	/* width:300px; */
+	/* height:300px; */
+	/* border-style:solid; */
+	/* margin:200px auto; */
+	/* background-color:red; */
+	/* color:white; */
+	/* text-align:center; */
+	/* transition-property:transform; */
+	/* transition-duration:2s; */
+	/* transition-delay:1s; */
+	
+/* } */
+/* .trans:hover{ */
+	/* transform:translateX(-200px); */
+	/* transform:translatey(200px); */
+	/* transform:translate(-200px,200px); */
+	
+/* } */
+
+/* .trans:hover{ */
+	/* transform:scale(1.5); */
+/* } */
+
+/* .trans:hover{ */
+	/* transform:rotate(100deg); */
+/* } */
+
+.media{
+	/* width:25%; */
+	margin:5px;
+	height:250px;
+	border-style:solid;
+	float:left;
+	box-sizing: border-size;
+		
+}
+[class*="col-"]{
+	width:100%;	
+}
+/*
+vertical layout				Horizontal layout
+0px									768px				1300px
+
+|----------------------------------|--------------------|
+					100%
+|-----------------------------------------------|
+|---|---|---|---|---|---|---|---|---|---|---|---|
+ 8.33%
+|---|   col-1
+  16.66%
+|-------|  col-2
+    25%
+|-----------| col-3
+     33.33%
+|---------------| col-4
+       41.66%
+|-------------------| col-5
+
+50%
+|-----------------------| col-6
+           58.33%
+|---------------------------|  col-7
+            66.66%
+|-------------------------------| col-8
+               75%
+|-----------------------------------| col-9
+                  83.33%
+|---------------------------------------| col-10
+91.66%
+|-------------------------------------------| col-11
+                        100%
+|-----------------------------------------------| col-12
+
+*/
+
+@media only screen and (min-width:768px){
+	
+	.col-1{
+		width:8.33%;
+	}
+	.col-2{
+		width:16.33%;
+	}
+	.col-3{
+		width:20%;
+	}
+	.col-4{
+		width:33.33%;
+	}
+	.col-5{
+		width:41.66%;
+			
+	}
+	.col-6{
+		width:50%;
+		
+	}
+	.col-7{
+		width:58.33%;
+	}
+	.col-8{
+		width:66.66%;
+	}
+	.col-9{
+		width:75%;
+	}
+	.col-10{
+		width:83.33%;
+	}
+	.col-11{
+		width:91.66%;
+	}
+	.col-12{
+		width:100%;
+	}
+}
+
+
+
